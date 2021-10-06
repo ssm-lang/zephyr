@@ -59,6 +59,13 @@
 				label = "PWM_6";
 				#pwm-cells = <3>;
 			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_6";
+			};
 		};
 
 		timers7: timers@40001400 {
@@ -76,6 +83,13 @@
 				st,prescaler = <10000>;
 				label = "PWM_7";
 				#pwm-cells = <3>;
+			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_7";
 			};
 		};
 
@@ -113,6 +127,13 @@
 				label = "PWM_12";
 				#pwm-cells = <3>;
 			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_12";
+			};
 		};
 
 		timers13: timers@40001c00 {
@@ -131,6 +152,13 @@
 				label = "PWM_13";
 				#pwm-cells = <3>;
 			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_13";
+			};
 		};
 
 		timers14: timers@40002000 {
@@ -148,6 +176,13 @@
 				st,prescaler = <10000>;
 				label = "PWM_14";
 				#pwm-cells = <3>;
+			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_14";
 			};
 		};
 

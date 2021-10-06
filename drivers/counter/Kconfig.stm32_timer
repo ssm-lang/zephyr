@@ -1,0 +1,6 @@
+# Copyright (c) 2021 Kent Hall
+# SPDX-License-Identifier: Apache-2.0
+
+config COUNTER_TIMER_STM32
+	bool "Enable STM32 Counters"
+	select USE_STM32_LL_TIM

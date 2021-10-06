@@ -300,6 +300,13 @@
 				label = "PWM_2";
 				#pwm-cells = <3>;
 			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_2";
+			};
 		};
 
 		timers3: timers@40000400 {
@@ -317,6 +324,13 @@
 				st,prescaler = <10000>;
 				label = "PWM_3";
 				#pwm-cells = <3>;
+			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_3";
 			};
 		};
 
@@ -336,6 +350,13 @@
 				label = "PWM_4";
 				#pwm-cells = <3>;
 			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_4";
+			};
 		};
 
 		timers5: timers@40000c00 {
@@ -353,6 +374,13 @@
 				st,prescaler = <0>;
 				label = "PWM_5";
 				#pwm-cells = <3>;
+			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_5";
 			};
 		};
 
@@ -372,6 +400,13 @@
 				label = "PWM_9";
 				#pwm-cells = <3>;
 			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_9";
+			};
 		};
 
 		timers10: timers@40014400 {
@@ -390,6 +425,13 @@
 				label = "PWM_10";
 				#pwm-cells = <3>;
 			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_10";
+			};
 		};
 
 		timers11: timers@40014800 {
@@ -407,6 +449,13 @@
 				st,prescaler = <10000>;
 				label = "PWM_11";
 				#pwm-cells = <3>;
+			};
+
+			counter {
+				compatible = "st,stm32-counter";
+				status = "disabled";
+				st,prescaler = <0>;
+				label = "COUNTER_11";
 			};
 		};
 

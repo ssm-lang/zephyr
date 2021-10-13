@@ -1,0 +1,87 @@
+&timers2 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers3 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers4 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers5 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers6 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers7 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers9 {
+	counter {
+		status = "okay";
+		st,prescaler = <167>;
+	};
+};
+
+&timers10 {
+	counter {
+		status = "okay";
+		st,prescaler = <167>;
+	};
+};
+
+&timers11 {
+	counter {
+		status = "okay";
+		st,prescaler = <167>;
+	};
+};
+
+&timers12 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers13 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&timers14 {
+	counter {
+		status = "okay";
+		st,prescaler = <83>;
+	};
+};
+
+&rtc {
+	status = "disabled";
+};
